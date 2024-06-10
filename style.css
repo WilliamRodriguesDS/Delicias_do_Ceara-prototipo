@@ -75,25 +75,30 @@
     object-fit: cover;
 }
 
-@media (min-width: 576px) {
+@media (min-height: 576px) {
     .carousel-item img {
-        height: 200px;
+        height: 190px;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-height: 768px) {
     .carousel-item img {
-        height: 260px;
+        height: 230px;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-height: 992px) {
     .carousel-item img {
         height: 340px;
     }
 }
+@media (min-height: 1024px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
 
-@media (min-width: 1200px) {
+@media (min-height: 1080px) {
     .carousel-item img {
         height: 500px;
     }
