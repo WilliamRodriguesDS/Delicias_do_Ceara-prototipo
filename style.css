@@ -75,30 +75,30 @@
     object-fit: cover;
 }
 
-@media (min-height: 576px) {
+@media (min-width: 576px) {
     .carousel-item img {
-        height: 190px;
+        height: 200px;
     }
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
     .carousel-item img {
-        height: 230px;
+        height: 260px;
     }
 }
 
-@media (min-height: 992px) {
+@media (min-width: 992px) {
     .carousel-item img {
         height: 340px;
     }
 }
-@media (min-height: 1024px) {
+@media (min-width: 1024px) {
     .carousel-item img {
         height: 400px;
     }
 }
 
-@media (min-height: 1080px) {
+@media (min-width: 1200px) {
     .carousel-item img {
         height: 500px;
     }
