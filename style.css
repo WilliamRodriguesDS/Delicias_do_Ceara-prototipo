@@ -83,19 +83,19 @@
 
 @media (min-width: 768px) {
     .carousel-item img {
-        height: 300px;
+        height: 275px;
     }
 }
 
 @media (min-width: 992px) {
     .carousel-item img {
-        height: 320px;
+        height: 290px;
     }
 }
 
 @media (min-width: 1200px) {
     .carousel-item img {
-        height: 500px;
+        height: 460px;
     }
 }
 @media (min-width: 1980px) {
