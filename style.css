@@ -95,7 +95,7 @@
 
 @media (min-width: 1200px) {
     .carousel-item img {
-        height: 200px;
+        height: 300px;
     }
 }
 @media (min-width: 1980px) {
