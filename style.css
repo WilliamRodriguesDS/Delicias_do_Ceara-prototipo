@@ -92,3 +92,9 @@
         height: 300px;
     }
 }
+
+@media (min-width: 1024px) {
+    .carousel-item img {
+        height: 600px;
+    }
+}
