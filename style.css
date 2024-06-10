@@ -89,12 +89,12 @@
 
 @media (min-width: 992px) {
     .carousel-item img {
-        height: 300px;
+        height: 320px;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .carousel-item img {
-        height: 600px;
+        height: 460px;
     }
 }
