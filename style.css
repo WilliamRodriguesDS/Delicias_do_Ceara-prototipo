@@ -77,25 +77,25 @@
 
 @media (min-width: 576px) {
     .carousel-item img {
-        height: 150px;
+        height: 200px;
     }
 }
 
 @media (min-width: 768px) {
     .carousel-item img {
-        height: 200px;
+        height: 250px;
     }
 }
 
 @media (min-width: 992px) {
     .carousel-item img {
-        height: 250px;
+        height: 300px;
     }
 }
 
 @media (min-width: 1200px) {
     .carousel-item img {
-        height: 300px;
+        height: 400px;
     }
 }
 @media (min-width: 1980px) {
