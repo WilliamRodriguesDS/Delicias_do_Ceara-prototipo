@@ -1,0 +1,94 @@
+.navbar-toggler {
+    border: none !important;
+    font-size: 1.25rem !important;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.nav-link {
+    color: #7a7a7a !important;
+    font-weight: 500 !important;
+    position: relative !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #000 !important;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "" !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 0 !important;
+        height: 2px !important;
+        background-color: #227938 !important;
+        visibility: hidden !important;
+        transition: 0.3s ease-in-out !important;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100% !important;
+        visibility: visible !important;
+    }
+}
+
+.hero-section {
+    background: url(src/img/conexao-085-praia-de-jericoacoara-scaled.jpg) no-repeat center !important;
+    background-size: cover !important;
+    width: 100% !important;
+}
+
+.navbar {
+    background-color: white !important;
+    height: 80px !important;
+    margin: 20px !important;
+    border-radius: 16px !important;
+    padding: 0.5rem !important;
+}
+
+.hero-section::before {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    position: absolute;
+    content: "" !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+@media (min-width: 576px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 340px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
