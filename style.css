@@ -73,38 +73,28 @@
 
 .carousel-item img {
     object-fit: cover;
+    max-height: 600px;
+    max-width: 1600px;
 }
-
-@media (min-width: 576px) {
+@media (min-width: 329px) {
     .carousel-item img {
-        height: 150px;
+        height: 175px;
     }
 }
-
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .carousel-item img {
-        height: 260px;
+        height: 220px;
     }
 }
 
 @media (min-width: 992px) {
     .carousel-item img {
-        height: 340px;
-    }
-}
-@media (min-width: 1024px) {
-    .carousel-item img {
-        height: 400px;
+        height: 300px;
     }
 }
 
 @media (min-width: 1200px) {
     .carousel-item img {
-        height: 500px;
-    }
-}
-@media (min-width: 1500px) {
-    .carousel-item img {
-        height: 560px;
+        height: 400px;
     }
 }
