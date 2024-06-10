@@ -77,13 +77,13 @@
 
 @media (min-width: 576px) {
     .carousel-item img {
-        height: 250px;
+        height: 240px;
     }
 }
 
 @media (min-width: 768px) {
     .carousel-item img {
-        height: 290px;
+        height: 260px;
     }
 }
 
