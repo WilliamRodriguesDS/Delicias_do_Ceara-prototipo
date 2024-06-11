@@ -80,10 +80,16 @@
     .carousel-item img {
         height: 175px;
     }
+    .img-fluid{
+        margin-top: -4px;
+    }
 }
 @media (min-width: 576px) {
     .carousel-item img {
         height: 220px;
+    }
+    .img-fluid{
+        margin-top: -4px;
     }
 }
 
@@ -91,10 +97,16 @@
     .carousel-item img {
         height: 300px;
     }
+    .img-fluid{
+        margin-top: -4px;
+    }
 }
 
 @media (min-width: 1200px) {
     .carousel-item img {
         height: 400px;
+    }
+    .img-fluid{
+        margin-top: -4px;
     }
 }
