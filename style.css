@@ -88,9 +88,6 @@
     .carousel-item img {
         height: 220px;
     }
-    .img-fluid{
-        margin-top: -4px;
-    }
 }
 
 @media (min-width: 992px) {
@@ -98,7 +95,7 @@
         height: 300px;
     }
     .img-fluid{
-        margin-top: -4px;
+        margin-top: 4px;
     }
 }
 
@@ -107,6 +104,14 @@
         height: 400px;
     }
     .img-fluid{
-        margin-top: -4px;
+        margin-top: 4px;
+    }
+}
+@media (min-width: 1500px) {
+    .carousel-item img {
+        height: 400px;
+    }
+    .img-fluid{
+        margin-top: 4px;
     }
 }
